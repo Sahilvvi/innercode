@@ -1,0 +1,585 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Inner Code</title>
+
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold" href="#" style="  text-transform: uppercase;">Inner Code</a>
+
+    <!-- Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <!-- Search Bar -->
+      <form class="d-flex mx-auto search-box">
+        <input class="form-control" type="search" placeholder="Search for products...">
+        <button class="btn search-btn" type="submit">
+<i class="bi bi-search"></i>        </button>
+      </form>
+
+      <!-- Links -->
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutpage.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="contactpage.html">Contact</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="../images/image5.png" class="d-block w-100" alt="...">
+
+      <div class="hero">
+        <h1>Comfort Meets Confidence</h1>
+        <p>Offering a diverse range of lingerie and nightwear</p>
+        <a href="shop.html" class="btn custom-btn">Shop Now</a>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="../images/image1.png" class="d-block w-100" alt="...">
+
+      <div class="hero">
+        <h1>Comfort Meets Confidence</h1>
+        <p>Offering a diverse range of lingerie and nightwear</p>
+        <a href="shop.html" class="btn custom-btn">Shop Now</a>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="../images/img3.jpeg" class="d-block w-100" alt="...">
+
+      <div class="hero">
+        <h1>Comfort Meets Confidence</h1>
+        <p>Offering a diverse range of lingerie and nightwear</p>
+        <a href="shop.html" class="btn custom-btn">Shop Now</a>
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="../images/image4.png" class="d-block w-100" alt="...">
+
+      <div class="hero">
+        <h1>Comfort Meets Confidence</h1>
+        <p>Offering a diverse range of lingerie and nightwear</p>
+        <a href="shop.html" class="btn custom-btn">Shop Now</a>
+      </div>
+    </div>
+
+     <div class="carousel-item">
+      <img src="../images/image6.jpeg" class="d-block w-100" alt="...">
+
+      <div class="hero">
+        <h1>Comfort Meets Confidence</h1>
+        <p>Offering a diverse range of lingerie and nightwear</p>
+        <a href="shop.html" class="btn custom-btn">Shop Now</a>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="1"></button>
+  </div>
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <div class="row align-items-center slider-box">
+
+        <div class="col-md-5 text-section">
+          <h2>Comfort meets<br>Confidence</h2>
+          <p> Offering a diverse range of lingerie <br>and nightwear for everyday comfort</p>
+          <a href="#" class="btn shop-btn">SHOP NOW</a>
+        </div>
+
+        <div class="col-md-7 text-center">
+          <img src="../images/image1.png" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="row align-items-center slider-box">
+
+        <div class="col-md-5 text-section">
+          <h2>Feel confident,<br>inside & out</h2>
+          <p>New arrivals just for you</p>
+          <a href="#" class="btn shop-btn">EXPLORE</a>
+        </div>
+
+        <div class="col-md-7 text-center">
+          <img src="../images/image1.png" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon custom-arrow"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon custom-arrow"></span>
+  </button>
+
+</div> -->
+
+<!-- FEATURE SECTION -->
+<section class="container mt-5 text-center">
+  <h2 class="section-title">
+  Why Choose <span class="pink-text" style="  text-transform: uppercase;">Inner Code</span>?
+</h2>
+
+  <div class="row mt-4">
+
+    <div class="col-md-4">
+      <div class="feature-box">
+        <h5>Premium Comfort</h5>
+        <p>Soft fabrics designed for everyday wear</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="feature-box">
+        <h5>Top Brands</h5>
+        <p>Jockey, Triumph, Libertina & more</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="feature-box">
+        <h5>Perfect Fit</h5>
+        <p>All sizes available for every body type</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="panties-section py-5 mt-5">
+  <div class="container text-center">
+
+    <h2 class="title mb-5">Panties in colours you'll obsess over</h2>
+
+    <div class="row justify-content-center">
+
+      <!-- CARD 1 -->
+      <div class="col-6 col-md-3 mb-4">
+        <div class="panty-card rotate-left">
+          <img src="../images/image11.jpeg" class="img-fluid">
+          <p>HIPSTERS ></p>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="col-6 col-md-3 mb-4">
+        <div class="panty-card rotate-right">
+          <img src="../images/image12.jpeg" class="img-fluid">
+          <p>TUMMY TRIMMER ></p>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="col-6 col-md-3 mb-4">
+        <div class="panty-card rotate-left">
+          <img src="../images/im13.jpeg" class="img-fluid">
+          <p>BIKINI BRIEFS ></p>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="col-6 col-md-3 mb-4">
+        <div class="panty-card rotate-right">
+          <img src="../images/im14.jpeg" class="img-fluid">
+          <p>BOYSHORTS ></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="flexi-section mt-5 ">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+
+      <!-- LEFT SIDE (UPDATED UI) -->
+      <div class="col-md-6 text-center">
+
+        <h5>One Size Fits All</h5>
+        <h2 class="highlight">Flexi Fit Panties</h2>
+
+        <div class="circle-wrapper">
+
+          <!-- Curve Text -->
+          <div class="curve-text">
+            Goes from XS to XL in a stretch
+          </div>
+
+          <!-- Circle Image -->
+          <div class="circle-box">
+            <img src="../images/img18.jpeg" class="main-circle-img">
+          </div>
+
+          <!-- LEFT POINTS -->
+          <div class="point left top">
+            <span>4-way stretch design</span>
+          </div>
+
+          <div class="point left bottom">
+            <span>Designed in elastane blended fabric</span>
+          </div>
+
+          <!-- RIGHT POINTS -->
+          <div class="point right top">
+            <span>Bonded edges for a seamless finish</span>
+          </div>
+
+          <div class="point right middle">
+            <span>100% cotton gusset</span>
+          </div>
+
+          <div class="point right bottom">
+            <span>Full rear coverage</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDE (UNCHANGED) -->
+      <div class="col-md-6 p-0 text-center position-relative">
+        <img id="swapImage" src="../images/img15.png" class="swap-img">
+          <a href="shop.html" class="shop-btn">SHOP NOW </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  const images = [
+    "../images/img15.png",
+    "../images/img16.png",
+    "../images/img17.png"
+  ];
+
+  let index = 0;
+  const img = document.getElementById("swapImage");
+
+  setInterval(() => {
+    img.style.opacity = 0;
+
+    setTimeout(() => {
+      index = (index + 1) % images.length;
+      img.src = images[index];
+      img.style.opacity = 1;
+    }, 300);
+
+  }, 2500);
+  const testimonials = [
+{
+    text: "Absolutely loved the fit and quality. The fabric feels premium and the style is exactly what I was looking for.",
+    name: "Aarav Singh",
+    avatar: "AS"
+},
+{
+    text: "The outfits are super comfortable and stylish. Got so many compliments wearing them!",
+    name: "Neha Kapoor",
+    avatar: "NK"
+},
+{
+    text: "Perfect blend of comfort and trend. Delivery was quick and packaging was great.",
+    name: "Rohan Mehta",
+    avatar: "RM"
+},
+{
+    text: "Great collection! The designs feel fresh and unique compared to other brands.",
+    name: "Simran Patel",
+    avatar: "SP"
+}
+];
+
+
+function render() {
+    document.getElementById("testimonialText").innerText = "“" + testimonials[index].text + "”";
+    document.getElementById("name").innerText = testimonials[index].name;
+    document.getElementById("avatar").innerText = testimonials[index].avatar;
+
+    let dotsHTML = "";
+    testimonials.forEach((_, i) => {
+        dotsHTML += `<span class="${i === index ? 'active' : ''}"></span>`;
+    });
+    document.getElementById("dots").innerHTML = dotsHTML;
+}
+
+function nextSlide() {
+    index = (index + 1) % testimonials.length;
+    render();
+}
+
+function prevSlide() {
+    index = (index - 1 + testimonials.length) % testimonials.length;
+    render();
+}
+
+render();
+
+const elements = document.querySelectorAll(".animate");
+
+</script>
+
+
+<div class="container my-5">
+  <div class="info-box p-4 d-flex justify-content-between align-items-center flex-wrap">
+
+    <!-- Item 1 -->
+    <div class="info-item text-center">
+      <div class="icon star">
+    <i class="fas fa-star"></i>
+  </div>
+      <h5>4.3</h5>
+      <p>Average Rating</p>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="info-item text-center">
+      <div class="icon clock">
+        <i class="fas fa-clock"></i>
+      </div>
+      <h5>10 AM – Night</h5>
+      <p>Hours</p>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="info-item text-center">
+       <div class="icon smile">
+    <i class="fas fa-smile"></i>
+  </div>
+      <h5>10k+</h5>
+      <p>Happy Customers</p>
+    </div>
+
+  </div>
+</div>
+
+<section class="testimonial-section container">
+
+    <div class="text-center mb-5">
+        <div class="sub-title">TESTIMONIALS</div>
+        <div class="main-title">
+            Loved by <span>Fashion Enthusiasts</span>
+        </div>
+        <p class="desc">
+            Hear directly from those who’ve made it part of their everyday look.
+        </p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="testimonial-card">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">
+                    "Love the collection—must go the for comfort nightwear and innerwear, the staff's gives you the perfect size of your."
+                </p>
+
+                <div class="profile">
+                    <div class="avatar">A</div>
+                    <div>
+                        <div class="name">AZA</div>
+                        <div class="role">Verified Customer</div>
+                    </div>
+                    <div class="stars ms-auto">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="testimonial-card">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">
+                    "Fall in love with lady beauty nightwear pieces and absolutely fabulous trendy pieces with best service from this guys. They always remember what size and choice I've"
+                </p>
+
+                <div class="profile">
+                    <div class="avatar">NS</div>
+                    <div>
+                        <div class="name">Niyati Sanghavi</div>
+                        <div class="role">Verified Customer</div>
+                    </div>
+                    <div class="stars ms-auto">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="testimonial-card">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">
+                    "Liked the service and the quality of the product is the best❤️.will definitely recommend about this store. Thank you."
+                </p>
+
+                <div class="profile">
+                    <div class="avatar">PA</div>
+                    <div>
+                        <div class="name">Patel Aruna</div>
+                        <div class="role">Verified Customer</div>
+                    </div>
+                    <div class="stars ms-auto">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="testimonial-wrapper">
+    <div class="testimonial-content">
+
+        <div class="quote">
+            <i class="fas fa-quote-left"></i>
+        </div>
+
+        <div id="testimonialText" class="testimonial-text text-white-custom">
+            “Absolutely loved the fit and quality. The fabric feels premium and the style is exactly what I was looking for.”
+        </div>
+
+        <div class="profile">
+            <div class="avatar" id="avatar">AS</div>
+            <div>
+                <div class="name" id="name">Aarav Singh</div>
+                <div class="role">Verified Customer</div>
+            </div>
+
+            <div class="stars">
+                ★★★★★
+            </div>
+        </div>
+
+        <div class="bottom-bar">
+            <div class="dots" id="dots"></div>
+
+            <div class="arrows">
+                <button onclick="prevSlide()"><i class="fas fa-chevron-left"></i></button>
+                <button class="active" onclick="nextSlide()"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</section>
+
+
+
+<footer class="footer mt-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- Map -->
+      <div class="col-md-4 mb-4">
+        <h5>Our Location</h5>
+        <iframe 
+          src="https://maps.google.com/maps?q=The%20Pacific%20Kharghar%20Navi%20Mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+
+      <!-- Address -->
+      <div class="col-md-4 mb-4">
+        <h5>Address</h5>
+        <p>
+          Shop No 9, The Pacific,<br>
+          Sector 13, Near Shilp Chowk,<br>
+          Near Mc Donald's,<br>
+          Kharghar, Navi Mumbai - 410210
+        </p>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-4 mb-4">
+        <h5>Contact</h5>
+        <p><strong>Phone:</strong> +91 83692 73364</p>
+        <p><strong>Email:</strong> your@email.com</p>
+        <p><strong>GSTIN:</strong> 27AHZPB9133B1Z9</p>
+
+  
+        <div class="social-icons">
+          <ul>
+            <li><i class="bi bi-instagram"></i></li>
+            <li><i class="bi bi-facebook"></i></li>
+            <li><i class="bi bi-whatsapp"></i></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="text-center pt-3 border-top">
+      <p>© 2026 Webbrigade Tech Solution. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
